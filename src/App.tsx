@@ -5,6 +5,7 @@ import { Header } from './components/Header'
 
 import { PlusCircle } from '@phosphor-icons/react'
 import { FormEvent } from "react"
+import { ToDoList } from "./components/ToDoList"
 
 
 export function App() {
@@ -45,7 +46,9 @@ export function App() {
             </div>
           </form>
         </div>
+
       </div>
+        <ToDoList />
     </div>
     
   )
