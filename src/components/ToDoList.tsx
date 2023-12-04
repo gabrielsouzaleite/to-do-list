@@ -1,5 +1,6 @@
 import styles from './ToDoList.module.css'
 import clipboard from '../assets/Clipboard.svg'
+import { ToDoItem } from './ToDoItem'
 
 export function ToDoList() {
   return(
@@ -24,8 +25,8 @@ export function ToDoList() {
         <div
           className={styles['todo-section']}
         >
-          <div
-            className={styles.list}
+          {/* <div
+            className={styles['empty-list']}
           >
             <img
               src={clipboard}
@@ -35,6 +36,14 @@ export function ToDoList() {
               <br />
               Crie tarefas e organize seus itens a fazer
             </p>
+          </div> */}
+
+          <div
+            className={styles.list}
+          >
+              <ToDoItem />
+              <ToDoItem />
+            
           </div>
         </div>
       </div>
