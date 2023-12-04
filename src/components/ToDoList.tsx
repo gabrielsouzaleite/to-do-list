@@ -1,5 +1,5 @@
 import styles from './ToDoList.module.css'
-import clipboard from '../assets/Clipboard.svg'
+// import clipboard from '../assets/Clipboard.svg'
 import { ToDoItem } from './ToDoItem'
 
 export function ToDoList() {
